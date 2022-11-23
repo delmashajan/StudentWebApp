@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <div class="row g-3">
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Jennifer</h5>
+                              <p class="card-text">Roll no:1</p>
+                              <p class="card-text">admission No:11812036</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="https://media.glamour.com/photos/5a425fd3b6bcee68da9f86f8/master/pass/best-face-oil.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Jacquiline</h5>
+                              <p class="card-text">Roll no:2</p>
+                              <p class="card-text">admission No:11812048</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUIjt1729YRBsVKe30AwJ2rHv4nWJBrUxxsQ&usqp=CAU" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Fernandrez</h5>
+                              <p class="card-text">Roll no:3</p>
+                              <p class="card-text">admission No:11812037</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHae3WiJ4jqag40ALfllxrfDMsY43N_LPUgoyslDjwniVtHdOXKFzTbgBBGVQDTU2QHmU&usqp=CAU" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Acquiline</h5>
+                              <p class="card-text">Roll no:4</p>
+                              <p class="card-text">admission No:11812038</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeZwxbMPuCws_N_EFAtnfgv1aAVkX1YDCdAYNA2IMau794NCvAK9CojTJ_ADyuIjAe5XY&usqp=CAU" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Ferin</h5>
+                              <p class="card-text">Roll no:5</p>
+                              <p class="card-text">admission No:11812045</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="https://i.seadn.io/gae/mwjY2BuBSsiRuK1QzJNiPKl6C7ZshEdMePUQK651c2E4bXLZyiDN2l29ZFbHeZ3totWrQKmh14XpV9VukewEsw1wCSJqJZjRZGrD?auto=format&w=1000" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Daphne</h5>
+                              <p class="card-text">Roll no:6</p>
+                              <p class="card-text">admission No:11812056</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Rodriguez</h5>
+                              <p class="card-text">Roll no:7</p>
+                              <p class="card-text">admission No:11812025</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl6LY8mwdSx-3usFvLSGHkSpRHjqjSiVG3opEqrvJ6s_Zbf2fhcyOt9WiDNFjKPeVeezQ&usqp=CAU" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Jefry</h5>
+                              <p class="card-text">Roll no:8</p>
+                              <p class="card-text">admission No:11812089</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="http://www.bigc.co.th/blog/wp-content/uploads/2020/12/close-up-young-beautiful-woman-face-DCVKM2S-00.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Emerin</h5>
+                              <p class="card-text">Roll no:9</p>
+                              <p class="card-text">Admission No:11812065</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsIaOX7XGgArsLy7Nm9XYVMzeZKw3VfCDB8upTPR20dk4uftJOfqM8v8VVvxiCYSiJv9Y&usqp=CAU" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Dizooza</h5>
+                              <p class="card-text">Roll no:10</p>
+                              <p class="card-text">Admission No:11812015</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Oliver</h5>
+                              <p class="card-text">Roll no:11</p>
+                              <p class="card-text">Admission No:11812017</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card" >
+                            <img height="200px" width="200px" class="rounded-circle mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzGAW1r-bbdJPP1pN8GgC5jCLT7XUotSGOQh_RBn1beUkU3uXBDZBrMI8SKQFiN7DtNTg&usqp=CAU" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Taniya</h5>
+                              <p class="card-text">Roll no:12</p>
+                              <p class="card-text">Admission No:11812069</p>
+                              <p class="card-text">College:Jyothi Engineering College</p>
+                              
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+</body>
+</html>
